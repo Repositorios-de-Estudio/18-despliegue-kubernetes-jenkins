@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: billing-app-back-jenkis
-          image: sergiopereze/3-practiva2-billingapp:1.0.0
+          image: sotobotero/billingapp-backend
           ports:
             - containerPort: 7280
               name: billingappbport
